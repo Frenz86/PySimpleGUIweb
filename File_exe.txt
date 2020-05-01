@@ -1,0 +1,10 @@
+Creating a Windows .EXE File
+
+pip install PyInstaller
+
+pyinstaller -wF timer.py
+
+To create your EXE file from your program that uses PySimpleGUI, my_program.py, enter this command in your Windows command prompt:
+
+pyinstaller -wF my_program.py
+You will be left with a single file, my_program.exe, located in a folder named dist under the folder where you executed the pyinstaller command.
